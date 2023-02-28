@@ -1,0 +1,97 @@
+body {background-color: rgb(20, 56, 23)}
+h2{color: white;
+   text-align: center; 
+
+}
+h3{color: white;}
+
+p{font-family: Verdana;
+  font-size: 20px;  
+
+}
+
+img {position: absolute;
+    width: 345px;
+    height: 534px;
+    left: 850.79px;
+    top: 243px;
+    background:url(vuyi.jpg);
+    border-radius: 50px;
+
+}
+
+h3{position: absolute;
+    width: 637.6px;
+    height: 151.74px;
+    left: 151.38px;
+    top: 311px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 59px;
+    display: flex;
+    align-items: flex-end;
+    color: #ffffff;
+
+    transform: rotate(0.51deg);
+
+
+}
+button {position: absolute;
+        width: 309px;
+        height: 84px;
+        left: 242px;
+        top: 719px;
+
+background: #524a4e;
+border-radius: 37px;
+
+position:center;
+width: 195px;
+height: 60px;
+left: 299px;
+top: 719px;
+
+font-family: raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: flex-end;
+color: #ffffff;
+}
+
+logo{position: absolute;
+     width: 118px;
+     height: 76px;
+     left: 0.67px;
+     top: 16px;
+
+ background: url(logo2.png);
+transform: rotate(00.51deg);   
+
+
+}
+
+
+
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #524a4e;
+}
