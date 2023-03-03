@@ -6,16 +6,21 @@
     
     <link rel="stylesheet" href="style.css">
     <script type="text/javascipt"src="js/jquery-3"></script>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+</head>
+<title>vuyiseka Mnweba</title>
 <body>
 
   <div class="scrollmenu">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-    <a href="#achievements">achievements</a>
-
+    <div class="topnav" id="myTopnav"></div>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="project.html">project</a>
+    <a href="achievements.html">achievements</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
   </div>
   
        <div class="bg-div">
@@ -65,6 +70,16 @@ function myFunction() {
 }
 </script>
 
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 
 

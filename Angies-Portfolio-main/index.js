@@ -10,7 +10,7 @@ function myFunction() {
   x.style.fontSize = "25px"; 
   x.style.color = "red"; 
 }
-
+</script>
 
 
 <script>
@@ -21,7 +21,17 @@ function myFunction() {
 }
 </script>
 
-</script>
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
